@@ -1,0 +1,40 @@
+function Init() {
+    let qr1Read = localStorage.getItem("qr1E");
+    let qr2Read = localStorage.getItem("qr2G");
+    let qr3Read = localStorage.getItem("qr3I");
+    let qr4Read = localStorage.getItem("qr4B");
+    let qr5Read = localStorage.getItem("qr5A");
+    let qr6Read = localStorage.getItem("qr6K");
+    let qr7Read = localStorage.getItem("qr7V");
+    let qr8Read = localStorage.getItem("qr8M");
+    let qr9Read = localStorage.getItem("qr9N");
+    let qr10Read = localStorage.getItem("qr10F");
+    let qr11Read = localStorage.getItem("qr11R");
+    let qr12Read = localStorage.getItem("qr12D");
+
+    var imagen = document.getElementById("a");
+    if(qr1Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("b");
+    if(qr2Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("c");
+    if(qr3Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("d");
+    if(qr4Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("e");
+    if(qr5Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("f");
+    if(qr6Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("g");
+    if(qr7Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("h");
+    if(qr8Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("i");
+    if(qr9Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("j");
+    if(qr10Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("k");
+    if(qr11Read)imagen.style.opacity = "1";
+    var imagen = document.getElementById("l");
+    if(qr12Read)imagen.style.opacity = "1";
+}
+window.onload = Init;

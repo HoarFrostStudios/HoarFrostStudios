@@ -1,0 +1,140 @@
+html{
+    
+  position: relative;
+}
+
+@font-face {
+    font-family: "JotiOne";
+    src:url('assets/fonts/JotiOne-Regular.ttf') ;
+    }
+@font-face{
+    font-family: "IMFellEnglish";
+    src:url('assets/fonts/im-fell-english.roman.ttf');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/img/PhantomSeekersPattern_WebModified.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-size: cover;
+    color: #000000;
+    
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container2 {
+    margin: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container3 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image {
+    height: 33%;
+    max-width: 336px;
+    height: auto;
+}
+
+.rotated-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ajusta el ancho deseado */
+    max-width: 1024px; /* Limita el ancho máximo si es necesario */
+    height: 100%; /* Mantiene la proporción cuadrada */
+    transform: rotate(-5deg);
+    border: 0px solid #000;
+    padding: 0px;
+}
+
+.large-image {
+    width: 90%;
+    max-width: 1500px;
+    height: auto;
+}
+
+.button {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+
+.rotated-box-clockwise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(5deg);
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    border: 0px solid #000;
+    padding: 0px;
+}
+
+.Cartel1{
+    background-color: #D89361;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    width: 620px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+.Text1{
+    font-family: "IMFellEnglish";
+    font-size: 4em;
+    margin-top: 0px;
+    margin: 0;
+}
+
+.Text2{
+    font-family: "IMFellEnglish";
+    font-size: 3em;
+    margin-top: 0px;
+    margin: 0;
+
+}
+
+.rrss{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
